@@ -1,0 +1,45 @@
+.footer
+    max-height: 500px
+    padding: 20px 0 30px 0
+    text-align: center
+
+    &__button
+        margin: 0 auto
+        margin-top: 20px
+        display: block
+        text-align: center
+        text-transform: uppercase
+        color: $color_backgr
+        background-color: $color_text
+        padding: 13px
+        border-radius: 20px
+        &:hover
+            background-color: $color_pas
+            transition: .2s all
+    &__social
+        display: flex
+        justify-content: center
+        margin-top: 50px
+        &-item
+            width: 40px
+            margin-right: 60px
+            &:last-child
+                margin-right: 0px
+            img
+                width: 100%
+                height: 40px
+                &:hover
+                    -webkit-transform: scale(1.2)
+                    -ms-transform: scale(1.2)
+                    transform: scale(1.3)
+                    transition: .2s all
+    &__text
+        margin-top: 45px
+        font-size: 14px
+        line-height: 17px
+        color: $color_pas
+        a
+            color: $color_pas
+            &:hover
+                color: $color_text
+                text-decoration: none

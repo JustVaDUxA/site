@@ -1,0 +1,37 @@
+@media (max-width: 375px)
+    body
+        padding: 0 15px 0 15px
+    .title
+        font-size: 24px
+    .header
+        &__nav
+            display: none
+            flex-direction: column
+            li
+                list-style-type: none
+                &:first-child
+                    margin-left: 0px
+            &-item
+                margin-top: 10px
+        &__solid
+            display: none
+        &__text
+            flex-direction: column
+            &_name
+                font-size: 26px
+                display: block
+            &_about
+                margin-left: 0
+            &_lang
+                display: none
+
+    .about
+        &__text
+            margin: 0 10px 0 10px
+
+    .skills
+        &__wrap
+            display: flex
+            flex-wrap: wrap
+            &-item
+                width: 100%

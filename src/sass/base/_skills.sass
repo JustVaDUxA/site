@@ -1,0 +1,38 @@
+.skills
+    padding: 20px 0 20px 0
+    min-height: 390px
+    &__wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-top: 30px
+        &-item
+            min-width: 200px
+            &_img
+                display: block
+                width: 100%
+                max-height: 130px
+            &_text
+                display: block
+                margin-top: 23px
+                font-size: 14px
+                line-height: 17px
+                color: $color_pas
+                text-align: center
+
+.rating-mini
+    display: block
+    margin: 0 auto
+    margin-bottom: 30px
+    text-align: center
+    font-size: 0
+    span
+        padding: 0
+        font-size: 31px
+        line-height: 1
+        color: lightgrey
+        &:before 
+	        content: '★'
+        &.active 
+	        color: gold
+
